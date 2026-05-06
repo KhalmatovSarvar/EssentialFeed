@@ -1,0 +1,16 @@
+# Xcode
+DerivedData/
+build/
+
+# User data (MUST ignore)
+*.xcuserdata
+*.xcuserstate
+
+# Workspace user data
+*.xcworkspace/xcuserdata/
+
+# Breakpoints
+*.xcbkptlist
+
+# macOS
+.DS_Store
