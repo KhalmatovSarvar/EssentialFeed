@@ -22,6 +22,6 @@ jobs:
       - name: Build and test
         run: |
           xcodebuild clean build test \
-          -workspace EssentialFeed.xcworkspace \
+          -project EssentialFeed.xcodeproj \
           -scheme EssentialFeed
 
